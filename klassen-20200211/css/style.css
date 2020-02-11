@@ -1,3 +1,119 @@
 /**
  * fil: css/style.css
  **/
+
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+
+h1{
+    font-family: 'Lobster', cursive;
+    color:black;
+}
+
+
+body{
+    background-color: darksalmon; /* bg color*/
+    background-image: url(../images/StrandogVand.JPG);
+    color: #ffffff; /*tekst farve*/
+    background-size:cover;
+}
+
+p{
+    color:crimson;
+    background-color: #fff;
+    width: 33%;
+    font-size: large;
+    font-family:cursive;
+    
+    padding: 30px;
+    margin: 60px;
+    margin-top: 150px;
+    margin-right: 60px;
+    z-index: 1;
+}
+
+section{
+    margin: 60px;
+    padding: 30px;
+}
+
+/*id her*/
+
+#red{
+    color:black; /*farve på vores id som hedder red*/
+    position:absolute;
+    top: 30px; /*Position fra toppen */
+    left: 15px; /* Position fra vensre */
+    
+}
+
+#blue{
+    color:black;
+    position:absolute;
+    top: 350px;
+    left: 400px;
+}
+
+.yellow{
+    color:black;
+    margin-left: 100px;
+    position:absolute;
+    top: 600px;
+    left: 800px;
+}
+
+#gallerikasse {
+    background-color:#fff;
+    position: relative;
+    float:left;
+    top: 50px;
+    left:15px;
+}
+
+.galleri {
+    width: 250px;
+    height: auto;
+    
+}
+
+nav {
+    background-color:darkturquoise;
+    color: white;
+    padding:7px;
+    position:fixed;
+    z-index: 2;
+    margin-left: 20%;
+   
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color:white;
+    
+}
+
+li{
+    display:inline;
+    padding: 63px;
+    font-size: 22px;
+    
+}
+
+#Overskrift2{
+    font-family: 'Lobster', cursive;
+    color:black;
+    margin-top: 1000px;
+}
+
+#overskrift3{
+    font-family: 'Lobster', cursive;
+    color:black;
+    margin-top: 300px;
+}
+    
+    
